@@ -1,12 +1,9 @@
 
 (function(window){
- var byeSpeaker ={};
- byeSpeaker.name; 
-
+ var byeSpeaker =new Object();
 var SpeakWord = "Good Bye";
-
-byeSpeaker.speak=function () {
-  console.log(SpeakWord + " " + byeSpeaker.name);
+byeSpeaker.speak=function (name) {
+  console.log(SpeakWord + " " +name);
 
 }
 
